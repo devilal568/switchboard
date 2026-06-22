@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+thiserror = "1"
+rdkafka = { version = "0.34", features = ["dynamic-linking"] }
+rdkafka-sys = { version = "=4.7.0", features = ["dynamic-linking"] }
+rusteron-client = { version = "=0.1.163" }
